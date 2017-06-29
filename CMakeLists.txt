@@ -11,6 +11,9 @@ include_directories(
         lib/googletest/include
         lib/googletest)
 
-add_executable(borsh_sandbox src/main.cpp)
+add_executable(borsh_sandbox
+        src/main.cpp
+        # Consts
+        src/consts/const_modifier.cpp)
 
 target_link_libraries(borsh_sandbox gtest gtest_main)
