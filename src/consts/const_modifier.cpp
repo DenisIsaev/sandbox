@@ -1,8 +1,7 @@
 #include "gtest/gtest.h"
 
 // Примеры использования модификатора const при объявлении\определении переменной.
-TEST(Consts, DefineAndDeclareConsts)
-{
+TEST(Consts, DefineAndDeclareConsts) {
     // Константные данные
     const int a = 1;
     int const b = 2;
