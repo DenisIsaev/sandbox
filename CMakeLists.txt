@@ -15,6 +15,7 @@ add_executable(borsh_sandbox
         # Consts
         src/consts/const_modifier.cpp
         src/consts/static_const_members.cpp
+        src/consts/const_members.cpp
         # Classes
         src/classes/constuctors.cpp)
 
